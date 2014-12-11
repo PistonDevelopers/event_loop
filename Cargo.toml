@@ -20,11 +20,8 @@ homepage = "https://github.com/pistondevelopers/event_loop"
 name = "event_loop"
 path = "src/lib.rs"
 
-[dependencies.pistoncore-current]
+[dependencies]
 
-git = "https://github.com/pistondevelopers/current"
-
-[dependencies.time]
-
-git = "https://github.com/rust-lang/time"
+pistoncore-current = "0.0.0"
+time = "0.1.1"
 
