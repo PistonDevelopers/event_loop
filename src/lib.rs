@@ -10,7 +10,7 @@ extern crate clock_ticks;
 extern crate quack;
 extern crate window;
 
-use std::thread::sleep;
+use std::thread::sleep; // fix this please i'm a noob and want to learn
 use std::time::duration::Duration;
 use std::cmp;
 use std::marker::{ PhantomData };
